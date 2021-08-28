@@ -79,30 +79,23 @@
 
 					</section>
 
-				<!-- Footer -->
+								<!-- Footer -->
 					<section id="footer">
 						<div class="inner">
-							<h2 class="major">Contactez nous</h2>
+							<h2 class="major">Contactez nous !</h2>
 							<p>Vous souhaitez avoir des informations supplémentaire sur un tarif, une offre ou simplement posez une question ? Dites nous tout...</p>
-							<form method="post" action="https://formspree.io/f/mrgrrgbn">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Nom Prénom</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field">
-										<label for="email">Adresse Email</label>
-										<input type="email" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="4"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</form>
+							<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mrgrrgbn" method="post">
+                            <fieldset id="fs-frm-inputs">
+                            <label for="full-name">Nom Prénom</label>
+                            <input type="text" name="name" id="full-name" placeholder="Louis Philippe" required="">
+                            <label for="email-address">Adresse e-mail</label>
+                            <input type="email" name="_replyto" id="email-address" placeholder="moi@monmail.be" required="">
+                            <label for="message">Message</label>
+                            <textarea rows="5" name="message" id="message" placeholder="Bonjour, je voudrais savoir quand partent les camions..." required=""></textarea>
+                            <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                            </fieldset>
+                            <input type="submit" value="Submit">
+                            </form>
 							<ul class="contact">
 								<li class="icon solid fa-home">
 									Bagagekom<br />
@@ -111,9 +104,9 @@
 								</li>
 								<li class="icon solid fa-phone">(0032) 2 466 21 16</li>
 								<li class="icon solid fa-envelope"><a href="#">contact@bagagekom.com</a></li>
-								<li class="icon brands fa-twitter"><a href="https://twitter.com/bagagekom">twitter.com/Bagagekom</a></li>
-								<li class="icon brands fa-facebook-f"><a href="https://www.facebook.com/profile.php?id=100072353011672">facebook.com/Bagagekom</a></li>
-								<li class="icon brands fa-instagram"><a href="https://www.instagram.com/bagagekom/">instagram.com/Bagagekom</a></li>
+								<li class="icon brands fa-twitter"><a href="https://twitter.com/bagagekom" target="_blank">twitter.com/Bagagekom</a></li>
+								<li class="icon brands fa-facebook-f"><a href="https://www.facebook.com/profile.php?id=100072353011672" target="_blank">facebook.com/Bagagekom</a></li>
+								<li class="icon brands fa-instagram"><a href="https://www.instagram.com/bagagekom/" target="_blank">instagram.com/Bagagekom</a></li>
 							</ul>
 							<ul class="copyright">
 								<li>&copy; Intralco 2021. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP + Nasmo</a></li>
