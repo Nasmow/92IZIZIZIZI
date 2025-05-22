@@ -1,0 +1,8 @@
+
+Save all partner logos in this folder:
+- radical-storage.png
+- bounce.png
+- nannybag.png
+- stasher.png
+- gls.png
+- luggage-hero.png
