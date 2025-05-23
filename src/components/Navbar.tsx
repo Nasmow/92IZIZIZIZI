@@ -1,6 +1,4 @@
-
 import React, { useState } from "react";
-import { Menu } from "lucide-react";
 import { Link } from "react-router-dom";
 import LanguageSelector from "./LanguageSelector";
 
@@ -42,10 +40,15 @@ const Navbar = () => {
             <LanguageSelector />
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="text-gray-700 hover:text-blue-600"
+              className="text-gray-700 hover:text-blue-600 p-2"
               aria-label="Toggle menu"
             >
-              <Menu size={24} />
+              {/* Simple hamburger menu icon using CSS */}
+              <div className="w-6 h-6 flex flex-col justify-center items-center">
+                <div className={`w-5 h-0.5 bg-current transition-all duration-300 ${isMenuOpen ? 'rotate-45 translate-y-1.5' : 'mb-1'}`}></div>
+                <div className={`w-5 h-0.5 bg-current transition-all duration-300 ${isMenuOpen ? 'opacity-0' : 'mb-1'}`}></div>
+                <div className={`w-5 h-0.5 bg-current transition-all duration-300 ${isMenuOpen ? '-rotate-45 -translate-y-1.5' : ''}`}></div>
+              </div>
             </button>
           </div>
         </div>
