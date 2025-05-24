@@ -33,7 +33,7 @@ const ContactSection = () => {
                 <Phone className="h-6 w-6 text-blue-600 mr-3 mt-1" />
                 <div>
                   <h4 className="font-semibold">{t('contact.phone')}</h4>
-                  <p className="text-gray-600">+32 (0) 488 99 20 33</p>
+                  <p className="text-gray-600">+32 471 89 60 24</p>
                 </div>
               </div>
               
@@ -49,9 +49,8 @@ const ContactSection = () => {
                 <Clock className="h-6 w-6 text-blue-600 mr-3 mt-1" />
                 <div>
                   <h4 className="font-semibold">{t('contact.hours')}</h4>
-                  <p className="text-gray-600">{t('contact.hours.weekdays')}</p>
-                  <p className="text-gray-600">{t('contact.hours.saturday')}</p>
-                  <p className="text-gray-600">{t('contact.hours.sunday')}</p>
+                  <p className="text-gray-600">Lundi - Samedi: 9h30 - 19h00</p>
+                  <p className="text-gray-600">Dimanche: 10h00 - 18h00</p>
                 </div>
               </div>
             </div>
