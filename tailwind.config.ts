@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -58,9 +57,9 @@ export default {
 					foreground: 'hsl(var(--card-foreground))'
 				},
 				bagagekom: {
-					DEFAULT: '#3366FF',
-					dark: '#1E47E3',
-					light: '#5580FF',
+					DEFAULT: '#A855F7', // Light purple
+					dark: '#7C3AED',    // Darker purple
+					light: '#C084FC',   // Lighter purple
 					black: '#111111',
 					white: '#F8F8F8',
 					gray: '#888888',
