@@ -10,7 +10,7 @@ const Footer = () => {
           <div>
             <h3 className="text-2xl font-bold mb-4">Bagagekom</h3>
             <p className="text-gray-300 mb-4">
-              Your trusted partner for luggage storage, package forwarding, and pickup point services.
+             Votre partenaire de confiance pour vos consignes de bagages, vos envois de colis et relais pickups.
             </p>
             <p className="text-gray-300">
               We are a proud partner of <a href="https://radicalstorage.com/" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 underline">Radical Storage</a>, the world's leading Luggage storage network.
@@ -22,12 +22,12 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <Link to="/" className="text-gray-300 hover:text-white transition">
-                  Home
+                  Accueil
                 </Link>
               </li>
               <li>
                 <Link to="/about" className="text-gray-300 hover:text-white transition">
-                  About Us
+                  A propos
                 </Link>
               </li>
               <li>
@@ -37,12 +37,12 @@ const Footer = () => {
               </li>
               <li>
                 <Link to="/#how-it-works" className="text-gray-300 hover:text-white transition">
-                  How It Works
+                  Comment ça marche
                 </Link>
               </li>
               <li>
                 <Link to="/#partners" className="text-gray-300 hover:text-white transition">
-                  Partners
+                  Partenaires
                 </Link>
               </li>
               <li>
