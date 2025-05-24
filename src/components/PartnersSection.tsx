@@ -1,25 +1,28 @@
 
 import React from "react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { useLanguage } from "../contexts/LanguageContext";
 
 const PartnersSection = () => {
+  const { t } = useLanguage();
+
   const partners = [
     {
       id: "storage",
-      title: "Storage Partners",
+      title: t('partners.storage'),
       logos: [
-        { name: "Radical Storage", path: "/logos/radical-storage.png", alt: "Radical Storage logo" },
-        { name: "Bounce", path: "/logos/bounce.png", alt: "Bounce logo" },
-        { name: "Nannybag", path: "/logos/nannybag.png", alt: "Nannybag logo" },
-        { name: "Stasher", path: "/logos/stasher.png", alt: "Stasher logo" }
+        { name: "Radical Storage", path: "/logos/radical-storage.png", alt: "Logo Radical Storage" },
+        { name: "Bounce", path: "/logos/bounce.png", alt: "Logo Bounce" },
+        { name: "Nannybag", path: "/logos/nannybag.png", alt: "Logo Nannybag" },
+        { name: "Stasher", path: "/logos/stasher.png", alt: "Logo Stasher" }
       ]
     },
     {
       id: "shipping",
-      title: "Shipping Partners",
+      title: t('partners.shipping'),
       logos: [
-        { name: "GLS", path: "/logos/gls.png", alt: "GLS logo" },
-        { name: "Luggage Hero", path: "/logos/luggage-hero.png", alt: "Luggage Hero logo" }
+        { name: "GLS", path: "/logos/gls.png", alt: "Logo GLS" },
+        { name: "Luggage Hero", path: "/logos/luggage-hero.png", alt: "Logo Luggage Hero" }
       ]
     }
   ];
@@ -28,16 +31,16 @@ const PartnersSection = () => {
     <section id="partners" className="py-16 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-8">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Our Partners</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900">{t('partners.title')}</h2>
           <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
-            We collaborate with trusted partners to provide you with the best logistics services.
+            {t('partners.subtitle')}
           </p>
         </div>
 
         <Tabs defaultValue="storage" className="max-w-3xl mx-auto">
           <TabsList className="grid w-full grid-cols-2">
-            <TabsTrigger value="storage">Storage Partners</TabsTrigger>
-            <TabsTrigger value="shipping">Shipping Partners</TabsTrigger>
+            <TabsTrigger value="storage">{t('partners.storage')}</TabsTrigger>
+            <TabsTrigger value="shipping">{t('partners.shipping')}</TabsTrigger>
           </TabsList>
           
           {partners.map((category) => (

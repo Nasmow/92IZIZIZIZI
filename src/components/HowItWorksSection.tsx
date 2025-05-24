@@ -6,28 +6,31 @@ import {
   Send,
   CalendarCheck
 } from "lucide-react";
+import { useLanguage } from "../contexts/LanguageContext";
 
 const HowItWorksSection = () => {
+  const { t } = useLanguage();
+
   const steps = [
     {
       icon: <CheckCircle2 className="h-12 w-12 text-blue-600" />,
-      title: "Register",
-      description: "Create an account or contact us to register for our services."
+      title: t('howItWorks.step1.title'),
+      description: t('howItWorks.step1.description')
     },
     {
       icon: <PackageOpen className="h-12 w-12 text-blue-600" />,
-      title: "Drop Off or Deliver",
-      description: "Drop off your luggage or have your packages delivered to our location."
+      title: t('howItWorks.step2.title'),
+      description: t('howItWorks.step2.description')
     },
     {
       icon: <Send className="h-12 w-12 text-blue-600" />,
-      title: "Forward or Store",
-      description: "We'll store your items securely or forward them to your desired destination."
+      title: t('howItWorks.step3.title'),
+      description: t('howItWorks.step3.description')
     },
     {
       icon: <CalendarCheck className="h-12 w-12 text-blue-600" />,
-      title: "Pickup or Receive",
-      description: "Collect your items when you're ready or receive them at your specified address."
+      title: t('howItWorks.step4.title'),
+      description: t('howItWorks.step4.description')
     }
   ];
 
@@ -35,9 +38,9 @@ const HowItWorksSection = () => {
     <section id="how-it-works" className="py-16">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900">How It Works</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900">{t('howItWorks.title')}</h2>
           <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
-            Our simple and efficient process ensures you get the service you need without any hassle.
+            {t('howItWorks.subtitle')}
           </p>
         </div>
 
