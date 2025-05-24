@@ -63,7 +63,7 @@ const getTranslations = (language: Language): Record<string, string> => {
         
         // Services Section
         'services.title': 'Nos Services',
-        'services.subtitle': 'Nous offrons une gamme de services pour rendre votre expérience logistique fluide et sans stress.',
+        'services.subtitle': 'Notre gamme de service pour rendre votre expérience logistique fluide et sans stress.',
         'services.luggage.title': 'Consigne de Bagages',
         'services.luggage.description': 'Stockez vos sacs ou bagages en toute sécurité pendant que vous explorez la ville ou attendez votre prochaine correspondance.',
         'services.shipping.title': 'Expédition de Colis',
