@@ -55,8 +55,8 @@ const getTranslations = (language: Language): Record<string, string> => {
         'nav.about': 'À Propos',
         
         // Hero Section
-        'hero.title': 'Services Sécurisés de Stockage de Bagages & Réexpédition de Colis',
-        'hero.subtitle': 'Stockez vos sacs en toute sécurité, réexpédiez vos colis efficacement, ou récupérez vos livraisons à votre convenance.',
+        'hero.title': 'Consigne Sécurisée de Bagages, point releais et expédition de Colis',
+        'hero.subtitle': 'Consignez vos bagages en toute sécurité, expédiez vos colis efficacement, ou faites vous livrer à notre agence sans prise de tête.',
         'hero.pricing': 'Colis envoyés à partir de seulement 1,5€/KG !',
         'hero.cta.services': 'Nos Services',
         'hero.cta.contact': 'Nous Contacter',
@@ -64,12 +64,12 @@ const getTranslations = (language: Language): Record<string, string> => {
         // Services Section
         'services.title': 'Nos Services',
         'services.subtitle': 'Nous offrons une gamme de services pour rendre votre expérience logistique fluide et sans stress.',
-        'services.luggage.title': 'Stockage de Bagages',
-        'services.luggage.description': 'Stockez vos sacs en toute sécurité pendant que vous explorez la ville ou attendez votre prochaine destination.',
-        'services.shipping.title': 'Réexpédition de Colis',
-        'services.shipping.description': 'Nous recevons vos colis et les réexpédions à l\'adresse de votre choix, où que vous soyez dans le monde.',
+        'services.luggage.title': 'Consigne de Bagages',
+        'services.luggage.description': 'Stockez vos sacs ou bagages en toute sécurité pendant que vous explorez la ville ou attendez votre prochaine correspondance.',
+        'services.shipping.title': 'Expédition de Colis',
+        'services.shipping.description': 'Nous pouvons expédier vos colis en Europe, au Maros ou au Sénégal, contactez nous pour toute autre destinations.',
         'services.collection.title': 'Point de Collecte',
-        'services.collection.description': 'Utilisez notre emplacement comme adresse de livraison et récupérez vos colis à votre convenance.',
+        'services.collection.description': 'Peur de ne pas recevoir vos colis ? Faites les livrer à notre agence et passer les récupérer quand ça vous convient !',
         'services.solutions.title': 'Solutions d\'Expédition',
         'services.solutions.description': 'Nous offrons diverses options d\'expédition pour répondre à vos besoins et exigences budgétaires.',
         
@@ -77,13 +77,13 @@ const getTranslations = (language: Language): Record<string, string> => {
         'howItWorks.title': 'Comment Ça Marche',
         'howItWorks.subtitle': 'Notre processus simple et efficace vous assure d\'obtenir le service dont vous avez besoin sans tracas.',
         'howItWorks.step1.title': 'S\'inscrire',
-        'howItWorks.step1.description': 'Créez un compte ou contactez-nous pour vous inscrire à nos services.',
+        'howItWorks.step1.description': 'Contactez nous par Téléphone, mail ou venez nous voir directement en agence pour découvrir nos services.',
         'howItWorks.step2.title': 'Déposer ou Livrer',
-        'howItWorks.step2.description': 'Déposez vos bagages ou faites livrer vos colis à notre emplacement.',
+        'howItWorks.step2.description': 'Déposez vos consignes de bagagees, récupérer ou envoyez vos colis',
         'howItWorks.step3.title': 'Réexpédier ou Stocker',
-        'howItWorks.step3.description': 'Nous stockons vos articles en toute sécurité ou les réexpédions à votre destination souhaitée.',
+        'howItWorks.step3.description': 'Nous stockons vos articles en toute sécurité ou les envoyons à votre destination souhaitée.',
         'howItWorks.step4.title': 'Récupérer ou Recevoir',
-        'howItWorks.step4.description': 'Collectez vos articles quand vous êtes prêt ou recevez-les à votre adresse spécifiée.',
+        'howItWorks.step4.description': 'Collectez vos bagages et colis à votre guise ou appeler nous si vous rencontrez un problème.',
         
         // Partners Section
         'partners.title': 'Nos Partenaires',
@@ -93,7 +93,7 @@ const getTranslations = (language: Language): Record<string, string> => {
         
         // Contact Section
         'contact.title': 'Nous Contacter',
-        'contact.subtitle': 'Contactez-nous pour toute demande ou pour commencer à utiliser nos services.',
+        'contact.subtitle': 'Contactez-nous pour toute demande ou information sur nos services.',
         'contact.getInTouch': 'Prendre Contact',
         'contact.address': 'Adresse',
         'contact.phone': 'Téléphone',
@@ -113,16 +113,16 @@ const getTranslations = (language: Language): Record<string, string> => {
         
         // Footer
         'footer.description': 'Votre partenaire de confiance pour le stockage de bagages, la réexpédition de colis et les services de points de collecte.',
-        'footer.partnership': 'Nous sommes un partenaire fier de',
-        'footer.partnershipText': ', le réseau de stockage de bagages leader mondial.',
+        'footer.partnership': 'Nous sommes un partenaire ',
+        'footer.partnershipText': ', du réseau leader mondial de stockage de bagages .',
         'footer.quickLinks': 'Liens Rapides',
         'footer.connectWithUs': 'Connectez-vous avec Nous',
         'footer.copyright': 'Tous droits réservés.',
         
         // Partnership text
-        'partnership.text': 'Nous sommes un partenaire fier de',
+        'partnership.text': 'Nous sommes un partenaire de',
         'partnership.link': 'Radical Storage',
-        'partnership.description': ', le réseau de stockage de bagages leader mondial.',
+        'partnership.description': ', le réseau leader mondialde stockage de bagages .',
       };
       
     case 'en':
