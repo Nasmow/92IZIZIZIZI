@@ -63,7 +63,7 @@ const getTranslations = (language: Language): Record<string, string> => {
         
         // Services Section
         'services.title': 'Nos Services',
-        'services.subtitle': 'Notre gamme de service pour rendre votre expérience logistique fluide et sans stress.',
+        'services.subtitle': 'Notre gamme de services pour rendre votre expérience logistique fluide et sans stress.',
         'services.luggage.title': 'Consigne de Bagages',
         'services.luggage.description': 'Stockez vos sacs ou bagages en toute sécurité pendant que vous explorez la ville ou attendez votre prochaine correspondance.',
         'services.shipping.title': 'Expédition de Colis',
@@ -75,12 +75,12 @@ const getTranslations = (language: Language): Record<string, string> => {
         
         // How It Works Section
         'howItWorks.title': 'Comment Ça Marche',
-        'howItWorks.subtitle': 'Notre processus simple et efficace vous assure d\'obtenir le service dont vous avez besoin sans tracas.',
-        'howItWorks.step1.title': 'S\'inscrire',
+        'howItWorks.subtitle': 'Notre processus simple et efficace vous assure d'obtenir le service dont vous avez besoin sans tracas.',
+        'howItWorks.step1.title': 'Contactez nous',
         'howItWorks.step1.description': 'Contactez nous par Téléphone, mail ou venez nous voir directement en agence pour découvrir nos services.',
         'howItWorks.step2.title': 'Déposer ou Livrer',
         'howItWorks.step2.description': 'Déposez vos consignes de bagagees, récupérer ou envoyez vos colis',
-        'howItWorks.step3.title': 'Réexpédier ou Stocker',
+        'howItWorks.step3.title': 'Expéditions',
         'howItWorks.step3.description': 'Nous stockons vos articles en toute sécurité ou les envoyons à votre destination souhaitée.',
         'howItWorks.step4.title': 'Récupérer ou Recevoir',
         'howItWorks.step4.description': 'Collectez vos bagages et colis à votre guise ou appeler nous si vous rencontrez un problème.',
@@ -88,7 +88,7 @@ const getTranslations = (language: Language): Record<string, string> => {
         // Partners Section
         'partners.title': 'Nos Partenaires',
         'partners.subtitle': 'Nous collaborons avec des partenaires de confiance pour vous offrir les meilleurs services logistiques.',
-        'partners.storage': 'Partenaires de Stockage',
+        'partners.storage': 'Partenaires de consignes',
         'partners.shipping': 'Partenaires d\'Expédition',
         
         // Contact Section
