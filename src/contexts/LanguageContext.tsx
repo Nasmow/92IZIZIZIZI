@@ -55,7 +55,7 @@ const getTranslations = (language: Language): Record<string, string> => {
         'nav.about': 'À Propos',
         
         // Hero Section
-        'hero.title': 'Consigne Sécurisée de Bagages, point releais et expédition de Colis',
+        'hero.title': 'Consigne Sécurisée de Bagages, point relais et expédition de Colis',
         'hero.subtitle': 'Consignez vos bagages en toute sécurité, expédiez vos colis efficacement, ou faites vous livrer à notre agence sans prise de tête.',
         'hero.pricing': 'Colis envoyés à partir de seulement 1,5€/KG !',
         'hero.cta.services': 'Nos Services',
