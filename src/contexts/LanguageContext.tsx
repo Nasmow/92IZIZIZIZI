@@ -122,7 +122,7 @@ const getTranslations = (language: Language): Record<string, string> => {
         // Partnership text
         'partnership.text': 'Nous sommes un partenaire de',
         'partnership.link': 'Radical Storage',
-        'partnership.description': ', le réseau leader mondialde stockage de bagages .',
+        'partnership.description': ', le réseau leader mondial de consigne de bagages .',
       };
       
     case 'en':
