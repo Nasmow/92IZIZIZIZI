@@ -67,7 +67,7 @@ const getTranslations = (language: Language): Record<string, string> => {
         'services.luggage.title': 'Consigne de Bagages',
         'services.luggage.description': 'Stockez vos sacs ou bagages en toute sécurité pendant que vous explorez la ville ou attendez votre prochaine correspondance.',
         'services.shipping.title': 'Expédition de Colis',
-        'services.shipping.description': 'Nous pouvons expédier vos colis en Europe, au Maroc ou au Sénégal, n'hésitez pas à nous contacter pour toute autre destination !',
+        'services.shipping.description': 'Nous pouvons expédier vos colis en Europe, au Maroc ou au Sénégal, n\'hésitez pas à nous contacter pour toute autre destination !',
         'services.collection.title': 'Point de Collecte',
         'services.collection.description': 'Peur de ne pas recevoir vos colis ? Faites les livrer à notre agence et passer les récupérer quand ça vous convient !',
         'services.solutions.title': 'Solutions d\'Expédition',
@@ -75,7 +75,7 @@ const getTranslations = (language: Language): Record<string, string> => {
         
         // How It Works Section
         'howItWorks.title': 'Comment Ça Marche',
-        'howItWorks.subtitle': 'Notre processus simple et efficace vous assure d'obtenir le service dont vous avez besoin sans tracas.',
+        'howItWorks.subtitle': 'Notre processus simple et efficace vous assure d\'obtenir le service dont vous avez besoin sans tracas.',
         'howItWorks.step1.title': 'Contactez nous',
         'howItWorks.step1.description': 'Contactez nous par Téléphone, mail ou venez nous voir directement en agence pour découvrir nos services.',
         'howItWorks.step2.title': 'Déposer ou Livrer',
